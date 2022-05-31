@@ -12,8 +12,8 @@ public class JenkinsTest{
 	public void parameterTest()
 	{
 		WebDriver driver = null;
-		String url=System.getProperty("URL");
-		String browser=System.getProperty("BROWSER");
+		String url=System.getProperty("url");
+		String browser=System.getProperty("browser");
 		switch(browser)
 		{
 			case "chrome":
