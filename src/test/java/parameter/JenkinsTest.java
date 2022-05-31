@@ -26,6 +26,7 @@ public class JenkinsTest{
 				break;
 		}
 		driver.get(url);
+		System.out.println("Opened");
 		driver.quit();
 	}
 }
